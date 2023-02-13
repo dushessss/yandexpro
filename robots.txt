@@ -1,0 +1,2 @@
+User-agent: * #указывает, для каких роботов установлены директивы
+Sitemap: https://yandextaxi.pro/sitemap.xml # указывает роботу на файл Sitemap для сайта

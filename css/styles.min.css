@@ -1,0 +1,269 @@
+@font-face {
+    font-family: YS Display;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/YandexSansDisplay-Light.woff2) format("woff2"), url(../fonts/YandexSansDisplay-Light.woff) format("woff"), url(../fonts/YandexSansDisplay-Light.ttf) format("truetype"), url(../fonts/YandexSansDisplay-Light.eot), url(../fonts/YandexSansDisplay-Light-1.eot) format("embedded-opentype")
+}
+
+@font-face {
+    font-family: YS Display;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/YandexSansDisplay-Regular.woff2) format("woff2"), url(../fonts/YandexSansDisplay-Regular.woff) format("woff"), url(../fonts/YandexSansDisplay-Regular.ttf) format("truetype"), url(../fonts/YandexSansDisplay-Regular.eot), url(../fonts/YandexSansDisplay-Regular-1.eot) format("embedded-opentype")
+}
+
+@font-face {
+    font-family: YS Display;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/YandexSansDisplay-Bold.woff2) format("woff2"), url(../fonts/YandexSansDisplay-Bold.woff) format("woff"), url(../fonts/YandexSansDisplay-Bold.ttf) format("truetype"), url(../fonts/YandexSansDisplay-Bold.eot), url(../fonts/YandexSansDisplay-Bold-1.eot) format("embedded-opentype")
+}
+
+@font-face {
+    font-family: YS Text;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/YandexSansDisplay-Light.woff2) format("woff2"), url(../fonts/YandexSansDisplay-Light.woff) format("woff"), url(../fonts/YandexSansDisplay-Light.ttf) format("truetype"), url(../fonts/YandexSansDisplay-Light.eot), url(../fonts/YandexSansDisplay-Light-1.eot) format("embedded-opentype")
+}
+
+@font-face {
+    font-family: YS Text;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/YandexSansDisplay-Regular.woff2) format("woff2"), url(../fonts/YandexSansDisplay-Regular.woff) format("woff"), url(../fonts/YandexSansDisplay-Regular.ttf) format("truetype"), url(../fonts/YandexSansDisplay-Regular.eot), url(../fonts/YandexSansDisplay-Regular-1.eot) format("embedded-opentype")
+}
+
+@font-face {
+    font-family: YS Text;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/YandexSansText-Medium.woff2) format("woff2"), url(../fonts/YandexSansText-Medium.woff) format("woff"), url(../fonts/YandexSansText-Medium.ttf) format("truetype"), url(../fonts/YandexSansText-Medium.eot), url(../fonts/YandexSansText-Medium-1.eot) format("embedded-opentype")
+}
+
+@font-face {
+    font-family: YS Text;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/YandexSansDisplay-Bold.woff2) format("woff2"), url(../fonts/YandexSansDisplay-Bold.woff) format("woff"), url(../fonts/YandexSansDisplay-Bold.ttf) format("truetype"), url(../fonts/YandexSansDisplay-Bold.eot), url(../fonts/YandexSansDisplay-Bold-1.eot) format("embedded-opentype")
+}
+
+
+
+:after,
+:before {
+    box-sizing: inherit
+}
+
+
+
+
+
+
+.section7 {
+    background-color: #222222;
+    padding: 76px 0
+}
+
+.section7__container {
+    max-width: 954px;
+    padding: 0 19px;
+    margin: 0 auto
+}
+
+.section7__container-link {
+    display: -ms-flexbox;
+    display: flex
+}
+
+@media screen and (max-width:767px) {
+    .section7__container-link {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center
+    }
+}
+
+.section7__title {
+    color: white;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-family: YS Display, Helvetica, Arial, sans-serif
+}
+
+@media screen and (max-width:767px) {
+    .section7__title {
+        font-size: 38px;
+        line-height: 42px
+    }
+}
+
+.section7__text {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 47px;
+    font-family: YS Display, Helvetica, Arial, sans-serif
+}
+
+@media screen and (max-width:767px) {
+    .section7__text {
+        font-size: 16px;
+        line-height: 18px
+    }
+}
+
+.section7__slider {
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 954px;
+    padding: 0 15px;
+    
+}
+
+.section7__slider-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 74px
+}
+
+@media screen and (max-width:767px) {
+    .section7__slider-container {
+        margin-bottom: 50px
+    }
+}
+
+.section7__slider-container svg {
+    width: 48px;
+    height: 48px;
+    color: #a0a0a0
+}
+
+.section7__slider-container svg circle {
+    fill: #a0a0a0
+}
+
+.section7__slider-container svg path {
+    fill: #080808
+}
+
+.section7__slider-container .prev-btn {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    margin-top: -22px;
+    left: 10px;
+    cursor: pointer
+}
+
+.section7__slider-container .prev-btn.swiper-button-disabled {
+    cursor: auto;
+    pointer-events: none;
+    opacity: .35
+}
+
+.section7__slider-container .next-btn {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    margin-top: -22px;
+    right: 10px;
+    cursor: pointer;
+    transform: rotate(180deg)
+}
+
+
+
+.section7__slider-el {
+    width: 447px;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #313131
+}
+
+.section7__slider-el img {
+    width: 100%;
+    margin-bottom: 32px
+}
+
+.section7__slider-el h3 {
+    color: white;
+    line-height: 29px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px
+}
+
+.section7__slider-el h3,
+.section7__slider-el p {
+    padding-left: 8px;
+    font-family: YS Text, Helvetica, Arial, sans-serif
+}
+
+.section7__slider-el p {
+    color: #d4d4d4;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 15px
+}
+
+.section7__link {
+    width: 171px;
+    line-height: 0
+}
+
+.section7__link:first-child {
+    margin-right: 17px
+}
+
+.section7__link p {
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: center;
+    text-decoration: none;
+    color: #999
+}
+
+.section7__google {
+    background-image: url(../svg/google_ru.svg)
+}
+
+.section7__apple,
+.section7__google {
+    background-size: cover;
+    width: 171px;
+    height: 49px;
+    display: inline-block
+}
+
+.section7__apple {
+    background-image: url(../svg/apple_ru.svg)
+}
+
+@media screen and (max-width:767px) {
+    .section7__apple {
+        margin-top: 20px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .section7 {
+        padding: 76px 0
+    }
+}
+
